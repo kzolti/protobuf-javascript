@@ -1,7 +1,7 @@
 {
   "name": "google-protobuf",
   "version": "3.21.2",
-  "description": "Protocol Buffers for JavaScript",
+  "description": "Google Protocol Buffers for JavaScript with fromObject method",
   "main": "google-protobuf.js",
   "files": [
     "google/protobuf/*_pb.js",
