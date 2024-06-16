@@ -10,7 +10,7 @@ This is a fork of [protocolbuffers/protobuf-javascript](https://github.com/proto
     Referenced changes made in js_generator.cc to enable fromObject functionality.
 
 
-## Manual check differencies
+### Manual check differencies
 https://github.com/protocolbuffers/protobuf-javascript/compare/main...kzolti:protobuf-javascript:main?diff=split&w=
 ```
 git clone https://github.com/kzolti/protobuf-javascript.git                           && \ 
@@ -20,7 +20,7 @@ git remote add upstream https://github.com/protocolbuffers/protobuf-javascript.g
 git fetch upstream                                                                    && \
 git diff upstream/main main   
 ```
-### Changes to made in js_generator.cc (2024-06-12)
+#### Changes to made in js_generator.cc (2024-06-12)
 ```
 diff --git a/generator/js_generator.cc b/generator/js_generator.cc
 index 44d00b1..7b97962 100644
