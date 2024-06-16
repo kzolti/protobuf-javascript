@@ -1,5 +1,5 @@
 # kzolti/protobuf-javascript
-
+Google Protocol Buffers for JavaScript with fromObject method
 
 ## Diferencies with upstream 
 This is a fork of [protocolbuffers/protobuf-javascript](https://github.com/protocolbuffers/protobuf-javascript) with the following changes:
