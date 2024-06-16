@@ -13,9 +13,12 @@ This is a fork of [protocolbuffers/protobuf-javascript](https://github.com/proto
 ## Manual check differencies
 https://github.com/protocolbuffers/protobuf-javascript/compare/main...kzolti:protobuf-javascript:main?diff=split&w=
 ```
-git remote add upstream https://github.com/protocolbuffers/protobuf-javascript.git
-git fetch upstream
-git diff upstream/main main  
+git clone https://github.com/kzolti/protobuf-javascript.git                           && \ 
+cd protobuf-javascript                                                                && \ 
+git checkout main                                                                     && \
+git remote add upstream https://github.com/protocolbuffers/protobuf-javascript.git    && \
+git fetch upstream                                                                    && \
+git diff upstream/main main   
 ```
 ### Changes to made in js_generator.cc (2024-06-12)
 ```
