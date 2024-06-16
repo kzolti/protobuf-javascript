@@ -10,7 +10,8 @@
     "LICENSE.md",
     "LICENSE-asserts.md",
     "package.json",
-    "README.md"
+    "README.md",
+    "bin/protoc-gen-js"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -24,12 +25,13 @@
   "scripts": {
     "build": "node ./node_modules/gulp/bin/gulp.js dist",
     "test": "node ./node_modules/gulp/bin/gulp.js test",
-    "clean": "node ./node_modules/gulp/bin/gulp.js clean"
+    "clean": "node ./node_modules/gulp/bin/gulp.js clean",
+    "prepack": "mkdir -p bin && rm -f bin/protoc-gen-js && cp bazel-bin/generator/protoc-gen-js bin/protoc-gen-js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/protocolbuffers/protobuf-javascript"
+    "url": "https://github.com/kzolti/protobuf-javascript/"
   },
-  "author": "Google Protocol Buffers Team",
+  "author": "Zoltan Istvan KADA <kada.zoli@gmail.com>",
   "license": "(BSD-3-Clause AND Apache-2.0)"
 }
